@@ -17,13 +17,13 @@
           })
 
           .state('about', {
-            url: '/',
+            url: '/about',
             templateUrl: 'components/about/about.html',
             
           })
 
           .state('classes', {
-            url: '/',
+            url: '/classes',
             templateUrl: 'components/classes/classes.html',
             
           })
