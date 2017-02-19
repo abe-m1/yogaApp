@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="yogaApp">
+<html lang="en" ng-app="YogaApp">
 
 <head>
   <meta charset="utf-8" />
@@ -12,9 +12,9 @@
   
   </head>
 
-<body ng-controller="app">
-  <h1>app starter</h1>
-  <!--<div ui-view></div>-->
+<body>
+ 
+  <div ui-view></div>
 
 
   <script type="text/javascript" src="lib/angular/angular.min.js"></script>
@@ -27,18 +27,10 @@
   <script type="text/javascript" src="core/modules/app.directives.js"></script>
   <script type="text/javascript" src="core/modules/app.filter.js"></script>
   <script type="text/javascript" src="core/modules/app.services.js"></script>
+  <script type="text/javascript" src="core/configs/routes.config.js"></script>
 
 </body>
 
 </html>
 
-<script>
-angular.module('yogaApp', [])
-    .controller('app', function($scope){
-             vm = this
-              vm.hello = "hello"
-             console.log('hello')
-    
-    })
 
-</script>
