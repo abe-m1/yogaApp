@@ -8,12 +8,28 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+   <link rel="stylesheet" href="assets/css/main.css">
+  
   </head>
 
-<body>
+<body ng-controller="app">
   <h1>app starter</h1>
+  <!--<div ui-view></div>-->
 
+
+  <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+  <script type="text/javascript" src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
 </body>
 
 </html>
+
+<script>
+angular.module('yogaApp', [])
+    .controller('app', function($scope){
+             vm = this
+              vm.hello = "hello"
+             console.log('hello')
+    
+    })
+
+</script>
