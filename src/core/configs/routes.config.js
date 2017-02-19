@@ -18,7 +18,13 @@
 
           .state('about', {
             url: '/',
-            templateUrl: 'components/home/about.html',
+            templateUrl: 'components/about/about.html',
+            
+          })
+
+          .state('classes', {
+            url: '/',
+            templateUrl: 'components/classes/classes.html',
             
           })
 

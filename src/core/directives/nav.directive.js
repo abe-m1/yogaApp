@@ -29,7 +29,7 @@
       
       if (currentUser) {
         vm.menuItemLeft = [
-          { label: 'Home', state: 'landing' },
+          { label: 'Home', state: 'home' },
           { label: 'Search', state: 'home' },
           { label: 'About', state: 'about' },
           { label: 'Classes', state: 'classes' },
@@ -41,8 +41,8 @@
         vm.loggedin = false;
       } else {
         vm.menuItemLeft = [
-          { label: 'Home', state: 'landing' },
-          { label: 'Search', state: 'home' },
+          { label: 'Home', state: 'home' },
+          { label: 'Search', state: 'home1' },
           { label: 'About', state: 'about' },
           { label: 'Classes', state: 'classes' },
         ];
