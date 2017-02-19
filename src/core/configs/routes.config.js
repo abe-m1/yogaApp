@@ -28,6 +28,12 @@
             
           })
 
+          .state('contact', {
+            url: '/contact',
+            templateUrl: 'components/contact/contact.html',
+            
+          })
+
           
 
           $urlRouterProvider.otherwise('/');
