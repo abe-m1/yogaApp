@@ -16,6 +16,12 @@
             // controllerAs: 'home'
           })
 
+          .state('about', {
+            url: '/',
+            templateUrl: 'components/home/about.html',
+            
+          })
+
           
 
           $urlRouterProvider.otherwise('/');
