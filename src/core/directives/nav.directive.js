@@ -30,7 +30,7 @@
       if (currentUser) {
         vm.menuItemLeft = [
           { label: 'Home', state: 'home' },
-          { label: 'Search', state: 'home' },
+          { label: 'Contact', state: 'contact' },
           { label: 'About', state: 'about' },
           { label: 'Classes', state: 'classes' },
         ];
@@ -42,7 +42,7 @@
       } else {
         vm.menuItemLeft = [
           { label: 'Home', state: 'home' },
-          { label: 'Search', state: 'home1' },
+          { label: 'Contact', state: 'contact' },
           { label: 'About', state: 'about' },
           { label: 'Classes', state: 'classes' },
         ];
