@@ -1,3 +1,14 @@
-body {
-    color: blue;
-}
+/* line 3, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+h1 {
+  color: red;
+  font-size: 30px; }
+
+/* line 1, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+h1 {
+  background-color: red;
+  font-style: italic; }
+
+/* line 6, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue; }
