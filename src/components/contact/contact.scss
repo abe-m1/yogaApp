@@ -1,1 +1,136 @@
+ @mixin borderrounded($radius) {
+   border-radius: $radius;
+ }
+ @mixin roundedbutton($color) {
+    @include borderrounded(30px);
+   background: $color;
+   padding: 10px;
+   border: 0;
+ }  
+
+ $green: green;
+
+.contact {
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    .container {
+        @media all and (min-width: 991px) {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+        }
+        .title {
+            text-align: left;
+            padding-top: 10%;
+            h1 {
+                font-size: 2.5em;
+                font-weight: 600;
+                color: white;
+            }
+            h3 {
+                font-size: 1.3em;
+                color: white;
+            }
+            button {
+                @include roundedbutton($green);
+                color: #fff;
+                margin: 60px auto 20px;
+                padding: 14px 46px;
+                font-size: 1.2em;
+                &:focus {
+                    outline: 0;
+                }
+            }
+        }
+        .content {
+            .contact--form {
+                width: 100%;
+                margin: 2em 0;
+                .col-md-4 {
+                    margin-top: 30px;
+                    background-color: white;
+                    height: 100%;
+                    padding: 30px;
+                    border-radius: 7px;
+                    form {
+                        h3 {
+                            text-align: center;
+                            color: rgba(233, 82, 79, 0.9);
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .col-md-8 {}
+                h4.lined {
+                    position: relative;
+                    text-align: center;
+                    margin: 1em 0;
+                    color: #848385;
+                    &:after {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 200px;
+                        height: 1px;
+                        background: #ccc;
+                        transform: translateY(-50%);
+                        content: '';
+                        margin-left: 20px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 50%;
+                        right: 50%;
+                        width: 200px;
+                        height: 1px;
+                        background: #ccc;
+                        transform: translateY(-50%);
+                        content: '';
+                        margin-right: 20px;
+                    }
+                }
+                input {
+                    text-align: center;
+                    font-size: 1.2em;
+                    padding: 20px;
+                    @include borderrounded(10px);
+                    position: relative;
+                }
+                span.validated {
+                    position: absolute;
+                    right: -50px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 2em;
+                    color: green;
+                    font-weight: normal;
+                    opacity: 0.6;
+                }
+                .contact--form__button {
+                    text-align: center;
+                    margin: 20px 0;
+                    button {
+                        @include roundedbutton($green);
+                        color: #fff;
+                        margin: 0px auto 20px;
+                        padding: 14px 46px;
+                        font-size: 1.2em;
+                        &:focus {
+                            outline: 0;
+                        }
+                    }
+                    a {
+                        color: #837f7f;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
 
