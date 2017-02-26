@@ -160,6 +160,11 @@ footer {
       .contact .container .title {
         padding-top: 0; } }
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* line 158, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  .signup.candidate {
+    height: 130vh; } }
+
 /* line 16, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
 .home {
   height: 100vh;
