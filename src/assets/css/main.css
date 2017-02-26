@@ -162,8 +162,20 @@ footer {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   /* line 158, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
-  .signup.candidate {
+  .contact {
     height: 130vh; } }
+
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+  /* line 164, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  .contact {
+    height: 130vh; }
+    /* line 166, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    .contact .container {
+      position: relative;
+      left: auto;
+      top: auto;
+      -webkit-transform: none;
+              transform: none; } }
 
 /* line 16, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
 .home {

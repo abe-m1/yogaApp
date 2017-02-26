@@ -155,8 +155,21 @@
 
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
-    .signup.candidate {
+    .contact {
         height: 130vh;
     }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1350px) {
+    .contact {
+        height: 130vh;
+        .container {
+            position: relative;
+            left: auto;
+            top: auto;
+            transform: none;
+        }
+    }
+
 }
 
