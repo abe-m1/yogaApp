@@ -21,48 +21,55 @@ footer {
       padding: 6px;
       cursor: pointer; }
 
-/* line 17, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-.home .container {
-  padding: 3em 0; }
-  /* line 19, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-  .home .container .title {
-    text-align: center; }
-    /* line 21, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-    .home .container .title h1 {
-      font-size: 2em;
-      font-weight: 600;
-      color: green; }
-    /* line 26, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-    .home .container .title h2 {
-      font-size: 1.8em;
-      color: #837f7f; }
-  /* line 32, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-  .home .container .content .inner-content {
-    width: 100%;
-    margin: 2em 0; }
-    /* line 36, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-    .home .container .content .inner-content input {
-      text-align: center;
-      font-size: 1.2em;
-      padding: 10px; }
-    /* line 44, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-    .home .container .content .inner-content .explore__button {
-      text-align: center;
-      margin: 80px 0; }
-      /* line 47, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-      .home .container .content .inner-content .explore__button button {
-        border-radius: 30px;
-        background: green;
-        padding: 10px;
-        border: 0;
-        color: #fff;
-        margin: 0px auto 20px;
-        padding: 14px 46px;
-        font-size: 1.2em; }
+/* line 16, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+.home {
+  height: 100vh;
+  background-image: url("../../assets/images/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  /* line 22, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+  .home .container {
+    padding: 3em 0; }
+    /* line 25, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+    .home .container .title {
+      text-align: center; }
+      /* line 27, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+      .home .container .title h1 {
+        font-size: 2em;
+        font-weight: 600;
+        color: green; }
+      /* line 32, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+      .home .container .title h2 {
+        font-size: 1.8em;
+        color: #837f7f; }
+    /* line 38, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+    .home .container .content .inner-content {
+      width: 100%;
+      margin: 2em 0; }
+      /* line 42, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+      .home .container .content .inner-content input {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 10px; }
+      /* line 50, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+      .home .container .content .inner-content .explore__button {
+        text-align: center;
+        margin: 80px 0; }
         /* line 53, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-        .home .container .content .inner-content .explore__button button:focus {
-          outline: 0; }
-      /* line 57, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
-      .home .container .content .inner-content .explore__button a {
-        color: #837f7f;
-        margin-bottom: 10px; }
+        .home .container .content .inner-content .explore__button button {
+          border-radius: 30px;
+          background: green;
+          padding: 10px;
+          border: 0;
+          color: #fff;
+          margin: 0px auto 20px;
+          padding: 14px 46px;
+          font-size: 1.2em; }
+          /* line 59, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+          .home .container .content .inner-content .explore__button button:focus {
+            outline: 0; }
+        /* line 63, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
+        .home .container .content .inner-content .explore__button a {
+          color: #837f7f;
+          margin-bottom: 10px; }
