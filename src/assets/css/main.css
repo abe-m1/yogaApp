@@ -23,6 +23,7 @@ footer {
 
 /* line 13, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
 .contact {
+  background: url("../../assets/images/contact.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh; }
   @media all and (min-width: 991px) {
@@ -144,6 +145,20 @@ footer {
       .contact .container .content .contact--form .contact--form__button a {
         color: #837f7f;
         margin-bottom: 10px; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  /* line 140, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  .contact {
+    height: 170vh; }
+    /* line 142, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    .contact .container {
+      width: 90%; }
+      /* line 145, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      .contact .container .content .contact--form {
+        margin-top: 0; }
+      /* line 149, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      .contact .container .title {
+        padding-top: 0; } }
 
 /* line 16, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
 .home {

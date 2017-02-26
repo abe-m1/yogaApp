@@ -11,7 +11,7 @@
  $green: green;
 
 .contact {
-    
+    background: url("../../assets/images/contact.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -129,6 +129,25 @@
                         margin-bottom: 10px;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .contact {
+        height: 170vh;
+        .container {
+            width: 90%;
+            .content {
+                .contact--form {
+                    margin-top: 0;
+                }
+            }
+            .title {
+                padding-top: 0;
             }
         }
     }
