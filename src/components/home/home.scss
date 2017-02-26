@@ -1,0 +1,87 @@
+// $default-font: 'Avenir-Book';
+// $open-sans-font: 'OpenSans-Regular';
+// $roboto-thin: 'Roboto-Thin';
+// $roboto-regular: 'Roboto-Regular'; //variable
+// $boxSize: 200px;
+// $ringWidth: 10px;
+// $bgColor: #2c3e50;
+// $ringColor: #e74c3c; //Colors
+// $light-pink: rgb(252, 238, 229);
+// $pale-grey: rgb(238, 232, 240);
+// $greyish-brown: rgb(74, 74, 74);
+ $green: green;
+// $blush: rgb(242, 120, 117);
+// $darkish-pink: rgb(234, 77, 97);
+// $dark-peach: rgb(237, 115, 108);
+// $button-border: #979797;
+
+ @mixin borderrounded($radius) {
+   border-radius: $radius;
+ }
+ @mixin roundedbutton($color) {
+    @include borderrounded(30px);
+   background: $color;
+   padding: 10px;
+   border: 0;
+ }
+// @mixin fancyheader {
+//   height: 1px;
+//   background: #979797;
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+
+.home {
+    .container {
+        padding: 3em 0;
+        .title{
+            text-align: center; 
+            h1 {
+                font-size: 2em;
+                font-weight: 600;
+                color:$green;
+            }
+            h2 {
+                font-size: 1.8em;
+                color: #837f7f;
+            }
+        }
+        .content {
+            .inner-content{
+                width: 100%;
+                margin: 2em 0;
+
+                 input {
+                     text-align: center;
+                     font-size: 1.2em;
+                     padding: 10px;
+                     
+                    //  @include borderrounded(10px);
+                    //  position: relative;
+                 }
+                 .explore__button{
+                     text-align: center;
+                     margin: 80px 0;
+                     button {
+                        @include roundedbutton($green);
+                        color: #fff;
+                        margin: 0px auto 20px;
+                        padding: 14px 46px;
+                        font-size: 1.2em;
+                        &:focus {
+                            outline: 0;
+                        }
+                     }
+                     a{
+                         color: #837f7f;
+                         margin-bottom: 10px;
+
+
+                     }
+                 }
+            }
+        }
+    }
+}
