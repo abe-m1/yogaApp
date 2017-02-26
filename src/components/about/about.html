@@ -5,8 +5,22 @@
       <hr class="title_underline">
     </div>
     <div class="content">
-         <img src="http://lorempixel.com/400/200/nature/" />
-        <div ng-repeat="(key, value) in steps" class="about-card">
+        
+        <div  class="about-card">
+            <div class="about-number" ng-bind="key"></div>
+            <!--<img src="{{value.link}}">-->
+            <img src="http://lorempixel.com/400/200/nature/" />
+            <div class="about-text" ng-bind="value.text"></div>
+        </div>
+
+        <div  class="about-card">
+            <div class="about-number" ng-bind="key"></div>
+            <!--<img src="{{value.link}}">-->
+            <img src="http://lorempixel.com/400/200/nature/" />
+            <div class="about-text" ng-bind="value.text"></div>
+        </div>
+
+        <div  class="about-card">
             <div class="about-number" ng-bind="key"></div>
             <!--<img src="{{value.link}}">-->
             <img src="http://lorempixel.com/400/200/nature/" />
