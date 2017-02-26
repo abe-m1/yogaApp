@@ -3,12 +3,20 @@ h1 {
   color: red;
   font-size: 30px; }
 
-/* line 1, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
-h1 {
-  background-color: red;
-  font-style: italic; }
-
-/* line 6, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: blue; }
+/* line 8, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+footer {
+  min-height: 200px;
+  background-color: green;
+  color: white; }
+  /* line 12, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+  footer .container {
+    padding: 40px 10px; }
+    /* line 14, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+    footer .container img {
+      width: 100%;
+      max-width: 150px; }
+    /* line 18, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+    footer .container span {
+      font-size: 0.8em;
+      padding: 6px;
+      cursor: pointer; }

@@ -5,3 +5,20 @@ h1 {
     font-size: 30px;
 }
 
+footer {
+  min-height: 200px;
+  background-color: green;
+  color: white;
+  .container {
+    padding: 40px 10px;
+    img {
+      width: 100%;
+      max-width: 150px;
+    }
+    span {
+      font-size: 0.8em;
+      padding: 6px;
+      cursor: pointer;
+    }
+  }
+}
