@@ -9,21 +9,19 @@
           $stateProvider
 
           
-          // .state('app', {
-          //   url: '^',
-          //   abstract: true,
-            
-          //   controller: 'AbstractCtrl',
-          //   controllerAs: 'abstract'
-          // })
+          .state('app', {
+            url: '^',
+            abstract: true,
+            templateUrl: 'components/abstract/abstract.html',
+            controller: 'AbstractCtrl',
+            controllerAs: 'abstract'
+          })
 
-          .state('home', {
+          .state('app.home', {
             url: '/',
             templateUrl: 'components/home/home.html',
             // controller: 'HomeCtrl',
             // controllerAs: 'home'
-            controller: 'AbstractCtrl',
-            controllerAs: 'abstract'
           })
 
           .state('about', {
