@@ -1,29 +1,14 @@
- <div class="about" style="height: 1000px">
+ <div class="about" >
         <div class="container">
     <div class="title">
       <h1>What we do</h1>
       <hr class="title_underline">
     </div>
     <div class="content">
-        
-        <div  class="about-card">
+        <div ng-repeat="(key, value) in abstract.bulletPoint" class="about-card">
             <div class="about-number" ng-bind="key"></div>
-            <!--<img src="{{value.link}}">-->
-            <img src="http://lorempixel.com/400/200/nature/" />
-            <div class="about-text" ng-bind="value.text"></div>
-        </div>
-
-        <div  class="about-card">
-            <div class="about-number" ng-bind="key"></div>
-            <!--<img src="{{value.link}}">-->
-            <img src="http://lorempixel.com/400/200/nature/" />
-            <div class="about-text" ng-bind="value.text"></div>
-        </div>
-
-        <div  class="about-card">
-            <div class="about-number" ng-bind="key"></div>
-            <!--<img src="{{value.link}}">-->
-            <img src="http://lorempixel.com/400/200/nature/" />
+            <img src="{{value.link}}">
+            
             <div class="about-text" ng-bind="value.text"></div>
         </div>
     </div>

@@ -27,6 +27,8 @@
           .state('app.about', {
             url: '/about',
             templateUrl: 'components/about/about.html',
+            controller: 'AbstractCtrl',
+            controllerAs: 'abstract'
             
           })
 
