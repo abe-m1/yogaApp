@@ -8,6 +8,7 @@
   function AbstractCtrl() {
 
     var vm = this
+    console.log('i am working')
    
 
   }

@@ -8,19 +8,22 @@
         function routesProvider($stateProvider, $urlRouterProvider) {
           $stateProvider
 
-          // Employer States
-          .state('app', {
-            url: '^',
-            abstract: true,
-            controller: 'AbstractCtrl',
-            controllerAs: 'abstract'
-          })
+          
+          // .state('app', {
+          //   url: '^',
+          //   abstract: true,
+            
+          //   controller: 'AbstractCtrl',
+          //   controllerAs: 'abstract'
+          // })
 
           .state('home', {
             url: '/',
             templateUrl: 'components/home/home.html',
             // controller: 'HomeCtrl',
             // controllerAs: 'home'
+            controller: 'AbstractCtrl',
+            controllerAs: 'abstract'
           })
 
           .state('about', {
