@@ -24,19 +24,19 @@
             // controllerAs: 'home'
           })
 
-          .state('about', {
+          .state('app.about', {
             url: '/about',
             templateUrl: 'components/about/about.html',
             
           })
 
-          .state('classes', {
+          .state('abb.classes', {
             url: '/classes',
             templateUrl: 'components/classes/classes.html',
             
           })
 
-          .state('contact', {
+          .state('app.contact', {
             url: '/contact',
             templateUrl: 'components/contact/contact.html',
             
