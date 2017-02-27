@@ -76,7 +76,7 @@ footer {
 
 /* line 13, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
 .contact {
-  background: url("../../assets/images/contact.jpg") no-repeat center center fixed;
+  background: url("../../assets/images/contact.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh; }
   @media all and (min-width: 991px) {
