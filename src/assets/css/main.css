@@ -21,6 +21,10 @@ footer {
       padding: 6px;
       cursor: pointer; }
 
+/* line 26, /Users/abemenashy/Documents/practice/new_work/yoga/src/scss/global.scss */
+.navbar {
+  margin-bottom: 0px !important; }
+
 /* line 3, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/about/about.scss */
 .about .container {
   padding: 3em 0; }
