@@ -30,7 +30,7 @@
             
           })
 
-          .state('abb.classes', {
+          .state('app.classes', {
             url: '/classes',
             templateUrl: 'components/classes/classes.html',
             
