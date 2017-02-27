@@ -29,10 +29,10 @@
       
       if (currentUser) {
         vm.menuItemLeft = [
-          { label: 'Home', state: 'home' },
-          { label: 'Contact', state: 'contact' },
-          { label: 'About', state: 'about' },
-          { label: 'Classes', state: 'classes' },
+          { label: 'Home', state: 'app.home' },
+          { label: 'Contact', state: 'app.contact' },
+          { label: 'About', state: 'app.about' },
+          { label: 'Classes', state: 'app.classes' },
         ];
         // vm.menuItemRight = [
         //   { label: 'Register', state: 'register' },
