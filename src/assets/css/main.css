@@ -283,3 +283,42 @@ footer {
         .home .container .content .inner-content .explore__button a {
           color: #837f7f;
           margin-bottom: 10px; }
+
+/* line 4, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+.login .container {
+  padding: 4em 0; }
+  /* line 6, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+  .login .container .title {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: orange; }
+    /* line 10, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+    .login .container .title h1 {
+      font-size: 2em;
+      font-weight: 600;
+      color: blue; }
+    /* line 15, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+    .login .container .title h2 {
+      font-size: 1.8em;
+      color: #837f7f; }
+  /* line 22, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+  .login .container .content .login-form {
+    background-color: red;
+    width: 100%;
+    margin: 2em 0; }
+    /* line 30, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+    .login .container .content .login-form input {
+      text-align: center;
+      font-size: 1.2em;
+      padding: 10px; }
+    /* line 37, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+    .login .container .content .login-form .form-button {
+      text-align: center;
+      margin: 20px 0; }
+      /* line 40, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
+      .login .container .content .login-form .form-button button {
+        color: #fff;
+        border-radius: 5px;
+        margin: 0px auto 20px;
+        padding: 14px 46px;
+        font-size: 1.2em; }

@@ -1,1 +1,54 @@
 // styles for login
+
+.login {
+    .container {
+        padding: 4em 0;
+        .title {
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: orange;
+            h1 {
+                font-size: 2em;
+                font-weight: 600;
+                color: blue;
+            }
+            h2 {
+                font-size: 1.8em;
+                color: #837f7f;
+            }
+         }
+
+         .content {
+             .login-form{
+                 //test
+                 background-color: red;
+                 width: 100%;
+                 margin: 2em 0;
+
+
+                //ALIGN TEXT INPUT TO CENTER
+                 input {
+                     text-align: center;
+                     font-size: 1.2em;
+                     padding: 10px;
+                 }
+
+                 //CENTER BUTTON
+                 .form-button {
+                     text-align: center;
+                     margin: 20px 0;
+                     button {
+                         color: #fff;
+                         border-radius: 5px;
+                         margin: 0px auto 20px;
+                         //MAKES BUTTON LARGER
+                        padding: 14px 46px;
+                         font-size: 1.2em;
+                     }
+                 }
+
+
+             }
+         }
+    }
+}
