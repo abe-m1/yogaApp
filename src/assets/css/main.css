@@ -121,21 +121,22 @@ footer {
     .contact .container .content .contact--form .col-md-4 {
       margin-top: 30px;
       background-color: white;
+      opacity: 0.7;
       height: 100%;
       padding: 30px;
       border-radius: 7px; }
-      /* line 61, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 62, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form .col-md-4 form h3 {
         text-align: center;
         color: rgba(233, 82, 79, 0.9);
         font-weight: 500; }
-    /* line 69, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 70, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container .content .contact--form h4.lined {
       position: relative;
       text-align: center;
       margin: 1em 0;
       color: #848385; }
-      /* line 74, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 75, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form h4.lined:after {
         position: absolute;
         top: 50%;
@@ -147,7 +148,7 @@ footer {
                 transform: translateY(-50%);
         content: '';
         margin-left: 20px; }
-      /* line 85, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 86, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form h4.lined:before {
         position: absolute;
         top: 50%;
@@ -159,14 +160,14 @@ footer {
                 transform: translateY(-50%);
         content: '';
         margin-right: 20px; }
-    /* line 97, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 98, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container .content .contact--form input {
       text-align: center;
       font-size: 1.2em;
       padding: 20px;
       border-radius: 10px;
       position: relative; }
-    /* line 104, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 105, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container .content .contact--form span.validated {
       position: absolute;
       right: -50px;
@@ -177,11 +178,11 @@ footer {
       color: green;
       font-weight: normal;
       opacity: 0.6; }
-    /* line 114, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 115, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container .content .contact--form .contact--form__button {
       text-align: center;
       margin: 20px 0; }
-      /* line 117, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 118, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form .contact--form__button button {
         border-radius: 30px;
         background: green;
@@ -191,38 +192,38 @@ footer {
         margin: 0px auto 20px;
         padding: 14px 46px;
         font-size: 1.2em; }
-        /* line 123, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+        /* line 124, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
         .contact .container .content .contact--form .contact--form__button button:focus {
           outline: 0; }
-      /* line 127, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 128, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form .contact--form__button a {
         color: #837f7f;
         margin-bottom: 10px; }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  /* line 140, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  /* line 141, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
   .contact {
     height: 170vh; }
-    /* line 142, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 143, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container {
       width: 90%; }
-      /* line 145, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 146, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .content .contact--form {
         margin-top: 0; }
-      /* line 149, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+      /* line 150, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
       .contact .container .title {
         padding-top: 0; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* line 158, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  /* line 159, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
   .contact {
     height: 130vh; } }
 
 @media only screen and (min-width: 1025px) and (max-width: 1350px) {
-  /* line 164, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+  /* line 165, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
   .contact {
     height: 130vh; }
-    /* line 166, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
+    /* line 167, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
     .contact .container {
       position: relative;
       left: auto;
