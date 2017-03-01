@@ -53,6 +53,8 @@
           .state('dashboard', {
             url: '/dashboard',
             templateUrl: 'components/dashboard/dashboard.html',
+            controller: 'DashboardCtrl',
+            controllerAs: 'dashboard'
             
           })
 
