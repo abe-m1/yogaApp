@@ -12,6 +12,7 @@
 
     var vm = this;
     console.log('i am hooked up crm')
+    vm.hello = 'hello'
   
 
   }
