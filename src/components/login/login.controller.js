@@ -29,7 +29,7 @@
         .then(function(data) {
             console.log(data.data.token)
             console.log('here 1')
-            localStorageManager.store(CURRENT_USER, data.data);
+            localStorage.store(CURRENT_USER, data.data);
 
           tokenService.store(TOKEN_HASH, data.data.token);
         //   return userService.getUser(data.data.token);
