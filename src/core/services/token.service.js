@@ -1,6 +1,6 @@
 (function (module){
     var tokenService;
-    tokenService.$inject = ['localStorageManager'];
+    tokenService.$inject = ['localStorage'];
     function tokenService(localStorageManager) {
 
         var exports = {
