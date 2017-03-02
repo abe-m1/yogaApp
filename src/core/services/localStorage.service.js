@@ -1,7 +1,7 @@
 (function (module){
     var localStorage;
-    localStorage.$inject = []
-    function localStorage(){
+    localStorage.$inject = ['$log', '$window']
+    function localStorage($log, $window){
 
         var exports = {
            
