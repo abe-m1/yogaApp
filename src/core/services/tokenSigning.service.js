@@ -1,8 +1,8 @@
 (function(module) {
   var tokenSigningService;
-  tokenSigningService.$inject = []
+  tokenSigningService.$inject = ['tokenService', '$log']
 
-  function tokenSigningService() {
+  function tokenSigningService(tokenService, $log) {
 
       
   }
