@@ -2,7 +2,7 @@
     urlFactory.$inject = []
 
     function urlFactory(){
-        return 
+        return "http://localhost:5000"
     }
 
     module.factory('urlFactory', urlFactory)
