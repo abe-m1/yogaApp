@@ -2,11 +2,11 @@
 
   "use strict";
   var LoginCtrl;
-  LoginCtrl.$inject = [];
+  LoginCtrl.$inject = ['authService', 'tokenService', 'TOKEN_HASH' , 'CURRENT_USER', '$state', 'localStorageManager'];
 
 
 
-  function LoginCtrl() {
+  function LoginCtrl(authService, tokenService, TOKEN_HASH, CURRENT_USER, $state, localStorageManager) {
     
    console.log('login running')
 
