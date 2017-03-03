@@ -2,9 +2,9 @@
     'use strict'
 
     var userService;
-    userService.$inject = [];
+    userService.$inject = [ 'urlFactory', '$log', '$http'];
 
-    function userService() {
+    function userService(urlFactory, $log, $http) {
 
         var exports = {
           
