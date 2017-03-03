@@ -8,6 +8,7 @@
 
         var exports = {
           signup: signup,
+          getUser: getUser
         }
 
          function signup(data){
@@ -17,6 +18,14 @@
                 data: data
             })
         }
+
+        function getUser(){
+            return $http({
+                method: 'GET',
+                url: urlFactory + '/user/current'
+            })
+        }
+
 
 
         return exports
