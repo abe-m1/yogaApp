@@ -4,10 +4,13 @@
   function jsonApplicationTypeService () {
 
     var exports = {
-      
+      request:request
     }
 
-   
+    var request = function(config){
+        config.headers['Content-Type'] = "application/json";
+        return config
+    }
 
     return exports
   }
