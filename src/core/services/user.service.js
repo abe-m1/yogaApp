@@ -7,7 +7,15 @@
     function userService(urlFactory, $log, $http) {
 
         var exports = {
-          
+          signup: signup,
+        }
+
+         function signup(data){
+            return $http({
+                method: 'POST',
+                url: urlFactory + '/user/register',
+                data: data
+            })
         }
 
 
