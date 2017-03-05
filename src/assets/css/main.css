@@ -284,6 +284,204 @@ footer {
           color: #837f7f;
           margin-bottom: 10px; }
 
+/* line 2, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+#wrapper {
+  padding-left: 0; }
+
+/* line 6, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+#page-wrapper {
+  width: 100%;
+  padding: 0;
+  background-color: #fff; }
+
+/* line 12, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.huge {
+  font-size: 50px;
+  line-height: normal; }
+
+@media (min-width: 768px) {
+  /* line 18, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+  #wrapper {
+    padding-left: 225px; }
+  /* line 22, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+  #page-wrapper {
+    padding: 10px; } }
+
+/* Top Navigation */
+/* line 29, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav {
+  padding: 0 15px; }
+
+/* line 33, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav > li {
+  display: inline-block;
+  float: left; }
+
+/* line 38, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #999; }
+
+/* line 45, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav > li > a:hover,
+.top-nav > li > a:focus,
+.top-nav > .open > a,
+.top-nav > .open > a:hover,
+.top-nav > .open > a:focus {
+  color: #fff;
+  background-color: #000; }
+
+/* line 54, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav > .open > .dropdown-menu {
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+
+/* line 66, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.top-nav > .open > .dropdown-menu > li > a {
+  white-space: normal; }
+
+/* line 70, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+ul.message-dropdown {
+  padding: 0;
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/* line 77, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+li.message-preview {
+  width: 275px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+/* line 82, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+li.message-preview > a {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+/* line 87, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+li.message-footer {
+  margin: 5px 0; }
+
+/* line 91, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+ul.alert-dropdown {
+  width: 200px; }
+
+/* Side Navigation */
+@media (min-width: 768px) {
+  /* line 98, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #222;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px; }
+  /* line 113, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+  .side-nav > li > a {
+    width: 225px; }
+  /* line 117, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+  .side-nav li a:hover,
+  .side-nav li a:focus {
+    outline: none;
+    background-color: #000 !important; } }
+
+/* line 124, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.side-nav > li > ul {
+  padding: 0; }
+
+/* line 128, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.side-nav > li > ul > li > a {
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999; }
+
+/* line 135, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.side-nav > li > ul > li > a:hover {
+  color: #fff; }
+
+/* Flot Chart Containers */
+/* line 141, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.flot-chart {
+  display: block;
+  height: 400px; }
+
+/* line 146, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.flot-chart-content {
+  width: 100%;
+  height: 100%; }
+
+/* Custom Colored Panels */
+/* line 153, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.huge {
+  font-size: 40px; }
+
+/* line 157, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-green {
+  border-color: #5cb85c; }
+
+/* line 161, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-green > .panel-heading {
+  border-color: #5cb85c;
+  color: #fff;
+  background-color: #5cb85c; }
+
+/* line 167, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-green > a {
+  color: #5cb85c; }
+
+/* line 171, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-green > a:hover {
+  color: #3d8b3d; }
+
+/* line 175, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-red {
+  border-color: #d9534f; }
+
+/* line 179, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-red > .panel-heading {
+  border-color: #d9534f;
+  color: #fff;
+  background-color: #d9534f; }
+
+/* line 185, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-red > a {
+  color: #d9534f; }
+
+/* line 189, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-red > a:hover {
+  color: #b52b27; }
+
+/* line 193, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-yellow {
+  border-color: #f0ad4e; }
+
+/* line 197, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-yellow > .panel-heading {
+  border-color: #f0ad4e;
+  color: #fff;
+  background-color: #f0ad4e; }
+
+/* line 203, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-yellow > a {
+  color: #f0ad4e; }
+
+/* line 207, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/dashboard/dashboard.scss */
+.panel-yellow > a:hover {
+  color: #df8a13; }
+
 /* line 4, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/login/login.scss */
 .login .container {
   padding: 4em 0; }
