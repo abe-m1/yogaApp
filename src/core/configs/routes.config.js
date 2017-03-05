@@ -52,26 +52,44 @@
             
           })
 
-          // .state('dashboard', {
-          //   url: '/dashboard',
-          //   templateUrl: 'components/dashboard/dashboard.html',
-          //   controller: 'DashboardCtrl',
-          //   controllerAs: 'dashboard'
+           .state('dashboard', {
+             url: '/dashboard',
+             templateUrl: 'components/dashboard/dashboard.html',
+             controller: 'DashboardCtrl',
+             controllerAs: 'dashboard'
             
-          // })
+           })
 
-          .state('dashboard', {
-            url: '/dashboard',
-            controller: 'DashboardCtrl',
-            controllerAs: 'dashboard',
-            views: {
-             "": { templateUrl: 'components/dashboard/dashboard.html'},
+           .state('dashboard.view1', {
+             url: '/view1',
+             templateUrl: 'components/dashboard/view1.html'
+            
+            
+           })
 
-            // the child views will be defined here (absolutely named)
-            'view1@dashboard': { templateUrl: 'components/dashboard/view1.html' },
-            'view2@dashboard': { templateUrl: 'components/dashboard/view2.html' }             
-            }
-        })
+           .state('dashboard.view2', {
+             url: '/view2',
+             templateUrl: 'components/dashboard/view2.html'
+            
+            
+           })
+
+           
+
+        //   .state('dashboard', {
+        //     url: '/dashboard',
+        //     controller: 'DashboardCtrl',
+        //     controllerAs: 'dashboard',
+        //     views: {
+        //      "": { templateUrl: 'components/dashboard/dashboard.html'},
+
+        //     // the child views will be defined here (absolutely named)
+        //     'view1@dashboard': { 
+        //         templateUrl: 'components/dashboard/view1.html' },
+        //     'view2@dashboard': 
+        //       { templateUrl: 'components/dashboard/view2.html' }             
+        //     }
+        // })
 
 
           
