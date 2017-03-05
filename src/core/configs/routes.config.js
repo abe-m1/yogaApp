@@ -52,13 +52,27 @@
             
           })
 
+          // .state('dashboard', {
+          //   url: '/dashboard',
+          //   templateUrl: 'components/dashboard/dashboard.html',
+          //   controller: 'DashboardCtrl',
+          //   controllerAs: 'dashboard'
+            
+          // })
+
           .state('dashboard', {
             url: '/dashboard',
-            templateUrl: 'components/dashboard/dashboard.html',
             controller: 'DashboardCtrl',
-            controllerAs: 'dashboard'
-            
-          })
+            controllerAs: 'dashboard',
+            views: {
+             "": { templateUrl: 'components/dashboard/dashboard.html'},
+
+            // the child views will be defined here (absolutely named)
+            'view1@dashboard': { templateUrl: 'components/dashboard/view1.html' },
+            'view2@dashboard': { templateUrl: 'components/dashboard/view2.html' }             
+            }
+        })
+
 
           
 
