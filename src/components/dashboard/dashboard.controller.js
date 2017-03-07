@@ -2,11 +2,11 @@
 
   "use strict";
   var DashboardCtrl;
-  DashboardCtrl.$inject = [];
+  DashboardCtrl.$inject = ['dashboardService'];
 
 
 
-  function DashboardCtrl() {
+  function DashboardCtrl(dashboardService) {
     
    
 
@@ -41,10 +41,7 @@
     }
 
 	function getPages() {
-		return $http( {
-			method: 'GET',
-			url   : url + '/page'
-		} )
+		dashboardService.getImages()
 	}
 
 	function updatePage( page, pos, imgUrl ) {
