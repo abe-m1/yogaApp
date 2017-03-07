@@ -49,10 +49,7 @@
 	}
 
 	function getAllPics() {
-		return $http( {
-			method: 'POST',
-			url   : url + '/blog'
-		} )
+		dashboardService.getAllPics()
 	}
 
 	function log( data ) {
