@@ -49,7 +49,7 @@
 	}
 
 	function getAllPics() {
-		dashboardService.getAllPics()
+		dashboardService.getImages()
 	}
 
 	function log( data ) {
