@@ -1,10 +1,10 @@
 (function(module) {
   "use strict";
 
-  dashboardNav.$inject = []
+  dashboardNav.$inject = ['$state', 'authService', '$rootScope', '$location']
 
 
-  function dashboardNav() {
+  function dashboardNav($state, authService, $rootScope, $location) {
 
     var directive = {
       restrict: "E",
