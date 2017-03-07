@@ -7,8 +7,20 @@
     function dashboardService(urlFactory, $log, $http) {
 
         var exports = {
-          
+          getImages: getImages
         }
+
+        function getImages() {
+		    return $http( {
+			method: 'GET',
+			url   : urlFactory + '/page'
+		} )
+	}
+
+
+     
+
+
 
         
 
