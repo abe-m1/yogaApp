@@ -45,15 +45,7 @@
 	}
 
 	function updatePage( page, pos, imgUrl ) {
-		return $http( {
-			method: 'PATCH',
-			url   : url + '/page',
-			data  : {
-				num : page,
-				pos : pos,
-				img : imgUrl
-			}
-		} )
+		dashboardService.updateImage(page, pos, imgUrl)
 	}
 
 	function getAllPics() {

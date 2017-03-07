@@ -8,7 +8,8 @@
 
         var exports = {
           getImages: getImages,
-          updateImage: updateImage
+          updateImage: updateImage,
+          getAllPics: getAllPics
         }
 
         function getImages() {
@@ -28,8 +29,14 @@
                     img : imgUrl
                 }
             } )
-	}
+	    }
 
+        function getAllPics() {
+            return $http( {
+                method: 'POST',
+                url   : urlFactory + '/blog'
+            } )
+	}
 
      
 
