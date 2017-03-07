@@ -9,10 +9,15 @@
     var directive = {
       restrict: "E",
       templateUrl: 'common/views/dashboard-nav.html',
+      controller: dashboardNavController,
+      controllerAs: 'navbarVm',
       scope: true
 
     };
     return directive;
+
+    function dashboardNavController() {
+    }
         
     };
   
