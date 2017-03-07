@@ -17,6 +17,23 @@
     return directive;
 
     function dashboardNavController($state, authService) {
+
+        vm.navItemLeft = [
+            { label: 'back to website', state: 'app.landing' },
+            { label: 'second tab', state: 'app.home' }
+            
+          ];
+
+        vm.navItemRight = [
+            { class: 'fa fa-fw fa-bar-chart-o', state: 'dashboard.view1', name: 'Dashboard' },
+            { class: 'fa fa-fw fa-table', state: 'dashboard.view2', name: 'Charts' }
+            
+        ];
+        vm.loggedin = true;
+
+
+          
+
     }
         
     };
