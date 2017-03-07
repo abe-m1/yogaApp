@@ -16,7 +16,7 @@
     };
     return directive;
 
-    function dashboardNavController() {
+    function dashboardNavController($state, authService) {
     }
         
     };
