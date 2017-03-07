@@ -18,6 +18,19 @@
 
     function dashboardNavController($state, authService) {
 
+         var vm = this;
+         vm.user = {}
+
+      if ( authService.isLoggedIn() ) {
+        vm.user = authService.getCurrentUser()
+      }
+
+        console.log(vm.user)  
+
+    
+
+    
+
         vm.navItemLeft = [
             { label: 'back to website', state: 'app.landing' },
             { label: 'second tab', state: 'app.home' }
@@ -29,7 +42,7 @@
             { class: 'fa fa-fw fa-table', state: 'dashboard.view2', name: 'Charts' }
             
         ];
-        vm.loggedin = true;
+       
 
 
           
