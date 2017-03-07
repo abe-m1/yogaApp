@@ -17,6 +17,7 @@
     return directive;
 
     function dashboardNavController($state, authService) {
+        console.log('nav directive linked up')
 
          var vm = this;
          vm.user = {}
@@ -29,7 +30,7 @@
 
     
 
-    
+        vm.currentUser = 'Abe m'
 
         vm.navItemLeft = [
             { label: 'back to website', state: 'app.landing' },
