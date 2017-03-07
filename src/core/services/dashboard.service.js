@@ -2,9 +2,9 @@
     'use strict'
 
     var dashboardService;
-    dashboardService.$inject = [];
+    dashboardService.$inject = ['urlFactory', '$log', '$http'];
 
-    function dashboardService() {
+    function dashboardService(urlFactory, $log, $http) {
 
         var exports = {
           
