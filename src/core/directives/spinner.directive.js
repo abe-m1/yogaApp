@@ -1,7 +1,7 @@
 (function(module) {
   "use strict";
 
-  yogaSpinner.$inject = [spinnerService];
+  yogaSpinner.$inject = ['spinnerService'];
 
   function yogaSpinner(spinnerService) {
     
