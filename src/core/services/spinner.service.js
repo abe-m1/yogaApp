@@ -2,7 +2,7 @@
   var spinnerService;
   spinnerService.$inject = ['$rootScope'];
 
-  function loaderService($rootScope) {
+  function spinnerService($rootScope) {
     
 
 
