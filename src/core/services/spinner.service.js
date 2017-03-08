@@ -1,8 +1,8 @@
 (function(module) {
   var spinnerService;
-  spinnerService.$inject = [];
+  spinnerService.$inject = ['$rootScope'];
 
-  function loaderService() {
+  function loaderService($rootScope) {
 
     var exports = {
       
