@@ -62,7 +62,9 @@
 
            .state('dashboard.view1', {
              url: '/view1',
-             templateUrl: 'components/dashboard/view1.html'
+             templateUrl: 'components/dashboard/view1.html',
+             controller: 'BlogCtrl',
+             controllerAs: 'blog'
             
             
            })

@@ -10,6 +10,9 @@
     var vm = this
     console.log('i am working')
 
+    vm.test = function(){
+        console.log('blog clicked')
+    }
 
      vm.createBlog = function(data) {
       
