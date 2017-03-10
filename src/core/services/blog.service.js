@@ -7,7 +7,16 @@
     function blogService(urlFactory, $log, $http) {
 
         var exports = {
-         
+            createBlog: createBlog,
+        
+        }
+
+         function createBlog(data){
+            return $http({
+                method: 'POST',
+                url: urlFactory + '/blog',
+                data: data
+            })
         }
 
          
