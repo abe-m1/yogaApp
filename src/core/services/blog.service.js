@@ -8,7 +8,8 @@
 
         var exports = {
             createBlog: createBlog,
-            getBlog: getBlog
+            getBlog: getBlog,
+            deleteBlog: deleteBlog
         
         }
 
@@ -24,6 +25,13 @@
             return $http({
                 method: 'GET',
                 url: urlFactory + '/blog'
+            })
+        }
+
+        function deleteBlog(id){
+            return $http({
+                method: 'DELETE',
+                url: urlFactory + '/blog/:' + id
             })
         }
 
