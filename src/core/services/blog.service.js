@@ -8,6 +8,7 @@
 
         var exports = {
             createBlog: createBlog,
+            getBlog: getBlog
         
         }
 
@@ -16,6 +17,13 @@
                 method: 'POST',
                 url: urlFactory + '/blog',
                 data: data
+            })
+        }
+
+        function getBlog(){
+            return $http({
+                method: 'GET',
+                url: urlFactory + '/blog'
             })
         }
 
