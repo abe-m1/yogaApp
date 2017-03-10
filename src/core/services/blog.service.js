@@ -2,9 +2,9 @@
     'use strict'
 
     var blogService;
-    blogService.$inject = [];
+    blogService.$inject = ['urlFactory', '$log', '$http'];
 
-    function blogService() {
+    function blogService(urlFactory, $log, $http) {
 
         var exports = {
          
