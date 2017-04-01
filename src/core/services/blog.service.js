@@ -14,6 +14,7 @@
         }
 
          function createBlog(data){
+             console.log('in the service')
             return $http({
                 method: 'POST',
                 url: urlFactory + '/blog',

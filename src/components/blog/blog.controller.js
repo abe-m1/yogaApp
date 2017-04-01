@@ -15,10 +15,11 @@
     }
 
      vm.createBlog = function(data) {
-      
+      console.log('create blog clicked')
       blogService.createBlog(data)
       .then(function(res){
         console.log('blog created', res)
+        vm.data = ''
     
       })
     }
