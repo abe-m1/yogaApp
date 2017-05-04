@@ -15,11 +15,12 @@
 
 .home {
     height: 100vh;
-    background-image: url('../../assets/images/new-background.png');
+    background-image: url('../../assets/images/fore-ground-rocks.png'),url('../../assets/images/new-background.png');
     background-size: cover;                   
     background-repeat: no-repeat;
-    background-position: center bottom; 
-    background-size: 90% 100%;
+    background-position: left bottom, center bottom; 
+    background-size: 50% 50%, 100% 100%;
+    position: relative;
     .container {
         
         padding: 3em 0;
