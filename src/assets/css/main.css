@@ -260,7 +260,7 @@ footer {
 /* line 16, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
 .home {
   height: 100vh;
-  background-image: url("../../assets/images/fore-ground-rocks.png"), url("../../assets/images/new-background.png");
+  background-image: url("../../assets/images/fore-ground-rocks.png"), url("../../assets/images/new-background1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom, center bottom;
