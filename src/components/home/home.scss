@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
+
 
  $green: green;
 
@@ -26,10 +28,12 @@
         padding: 3em 0;
         .title{
             text-align: center; 
+            
             h1 {
                 font-size: 2em;
                 font-weight: 600;
                 color:$green;
+                font-family: 'Henny Penny', cursive;
             }
             h2 {
                 font-size: 1.8em;
