@@ -17,11 +17,11 @@
 
 .home {
     height: 100vh;
-    background-image: url('../../assets/images/tree.png'),url('../../assets/images/yoga-back.png');
+    background-image: url('../../assets/images/yoga-back.png');
     background-size: cover;                   
     background-repeat: no-repeat;
-    background-position: left bottom, center bottom; 
-    background-size: 40% 70%, 100% 100%;
+    background-position:  center bottom; 
+    background-size:  100% 100%;
     position: relative;
     .container {
         
@@ -33,7 +33,7 @@
                 font-size: 2em;
                 font-weight: 600;
                 color:$green;
-                font-family: 'Henny Penny', cursive;
+                
             }
             h2 {
                 font-size: 1.8em;
