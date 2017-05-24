@@ -103,7 +103,7 @@ footer {
 
 /* line 13, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
 .contact {
-  background: url("../../assets/images/contact.jpg") no-repeat center center;
+  background: url("../../assets/images/yoga2.png") no-repeat center center;
   background-size: cover;
   height: 100vh; }
   @media all and (min-width: 991px) {
@@ -261,7 +261,7 @@ footer {
 /* line 18, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/home/home.scss */
 .home {
   height: 100vh;
-  background-image: url("../../assets/images/yoga-back.png");
+  background-image: url("../../assets/images/yoga2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
