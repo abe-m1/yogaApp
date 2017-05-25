@@ -32,6 +32,14 @@
             
           })
 
+          .state('app.approach', {
+            url: '/approach',
+            templateUrl: 'components/approach/approach.html',
+            controller: 'AbstractCtrl',
+            controllerAs: 'abstract'
+            
+          })
+
           .state('app.classes', {
             url: '/classes',
             templateUrl: 'components/classes/classes.html',
