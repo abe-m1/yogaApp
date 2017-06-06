@@ -103,7 +103,7 @@ footer {
 
 /* line 13, /Users/abemenashy/Documents/practice/new_work/yoga/src/components/contact/contact.scss */
 .contact {
-  background: url("../../assets/images/yoga2.png") no-repeat center center;
+  background: url("../../assets/images/yoga2.png") no-repeat bottom center;
   background-size: cover;
   height: 100vh; }
   @media all and (min-width: 991px) {

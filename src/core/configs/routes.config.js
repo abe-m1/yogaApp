@@ -32,6 +32,13 @@
             
           })
 
+          .state('app.instructors', {
+            url: '/instructors',
+            templateUrl: 'components/instructors/instructors.html',
+            
+            
+          })
+
           .state('app.approach', {
             url: '/approach',
             templateUrl: 'components/approach/approach.html',
