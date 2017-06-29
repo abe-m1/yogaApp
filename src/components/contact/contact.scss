@@ -11,12 +11,12 @@
  $green: green;
 
 .contact {
-    background: url("../../assets/images/yoga2.png") no-repeat bottom center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     height: 100vh;
+    background-image: url('../../assets/images/yoga2.png');
+    background-size: cover;                   
+    background-repeat: no-repeat;
+    background-position:  center bottom; 
+    background-size:  100% 100%;
     .container {
         @media all and (min-width: 991px) {
             position: absolute;
